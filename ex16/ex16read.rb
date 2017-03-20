@@ -7,7 +7,7 @@ puts "If you do want that, hit RETURN."
 $stdin.gets
 
 puts "Opening the file..."
-target = open(filename) {|f| data = f.read}
+target = open(filename, 'r+')
 
 puts "File closed."
 target.close
