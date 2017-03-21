@@ -1,0 +1,96 @@
+####### LIST OF CHARS AND SYMBOLS USED IN LRTHW SO FAR #######
+
+SYMBOL		NAME			FUNCTION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+puts		puts			"put string" => prints a string/ integer with a new line
+
+print 		print 			prints string with no new line
+
+"" or ''	string			used to return words to the user
+
+0..9		integers		numbers
+
+0.1..0.9	floats			decimal numbers
+
+#			comment			used for creating a comment that the script will not run
+
++			plus			adds
+	
+-			minus			subtracts
+
+/			fwd slash		divides
+
+*			asterisk		multiplies
+
+%			modulus			returns remainder
+
+< 			less than		used in maths and arguments
+
+> 			greater than	see above
+
+<=			less then equal	see above
+
+>=			greater/ equal	see above
+
+=			equals			set variables => x = something
+
+==			double equals	are two things the same 
+
+()			brackets		used to contain arguments or parameters
+
+_			underscore		used in arguments and method names
+
+#{}			hash curlys		used for string interpolation
+
+%{}			modulus curlys	string interpolation => same format multiple values
+
+true		true			boolean true (everything is true unless false or nil)
+
+false		false			boolean false (false and nil)
+
+%q {}		quote			used for long string => string goes inside {}
+
+\			escape			escapes next char
+
+\n 			new line		creates new line
+
+\\			double \\		used to display a \ in a string
+
+gets		gets			gets information from user
+
+.chomp		.chomp			removes new line
+
+.to_i		to integer 		changes/ specifies to an integer
+
+.to_f		to float 		changes/ specifies to a float
+
+.round(2)	round			rounds to (2) decimal places
+
+ARGV		arg variable 	get user input from command line rather than during the script
+
+$stdin		standin			used after ARGV to get user input mid script ($stdin.gets.chomp)
+
+open		open			opens a specified file => open(filename)
+
+.read 		read 			called on a file to read it
+
+close		close			closes file
+
+readline	readline		reads one line of text
+
+truncate	truncate		empties a file
+
+write()		write			writes (stuff here) to file
+
+.exist?		.exist?			method used for asking if something exists => File.exist?
+
+;			semi-colon		used for writing code on one line
+
+def			method			used to 'define' a method name def method; end
+
+end			end				used to end a method/ classs = > end script
+
++=			plus equals		used to add to a variable => var = 0 => var += 1 => var = 1
+
+seek(0)		seek			method to go to (byte number) in a file
+
